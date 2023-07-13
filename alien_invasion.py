@@ -191,6 +191,7 @@ class AlienInvasion :
             self.bullets.empty()
 
             self.creat_feelt()
+            sleep(0.5)
         else : 
             self.start.game_state = False
             self.setting.origin_setting()
